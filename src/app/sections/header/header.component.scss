@@ -1,0 +1,20 @@
+@import '../../../styles.scss';
+
+.navbar {
+  &__list {
+    @include flex($justify: space-evenly, $align: center);
+    border-bottom: 0.0625rem solid;
+    margin: 2rem 0 0 0;
+    padding: 0;
+    font-family: $font-family-uppercase;
+    font-weight: $font-weight-700;
+
+    &-item {
+      list-style-type: none;
+    }
+
+    &-logo {
+      width: 12rem;
+    }
+  }
+}

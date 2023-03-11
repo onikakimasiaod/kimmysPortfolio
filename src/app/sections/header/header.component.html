@@ -1,0 +1,10 @@
+<nav class="navbar">
+  <ul class="navbar__list">
+    <ng-container *ngFor="let section of SECTIONS">
+      <li class="navbar__list-item">
+        <img *ngIf="section === 'LOGO'; else textSection" [src]="LOGO" class="navbar__list-logo">
+        <ng-template #textSection>{{ section }}</ng-template>
+      </li>
+    </ng-container>
+  </ul>
+</nav>
