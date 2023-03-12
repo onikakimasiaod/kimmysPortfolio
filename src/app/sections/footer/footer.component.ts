@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  public readonly footerText = `© onikakimasiaod. 2023. all rights reserved`
+
   constructor() { }
 
   ngOnInit(): void {

@@ -1,27 +1,2 @@
 /* You can add global styles to this file, and also import other style files */
-
-
-//variables
-$primary: #F1E0DB;
-
-//font-family
-$font-family-uppercase: 'Alegreya Sans SC', sans-serif;
-
-//font-weight
-$font-weight-700: 700;
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: $primary;
-}
-
-
-// global mixins
-@mixin flex($justify: null, $align: null, $direction: row, $gap: null) {
-  display: flex;
-  justify-content: $justify;
-  align-items: $align;
-  flex-direction: $direction;
-  gap: $gap;
-}
+@import 'theme/index.scss';

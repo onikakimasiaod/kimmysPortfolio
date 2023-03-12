@@ -1,0 +1,11 @@
+// imports
+@import './variables.scss';
+
+%uppercase-text {
+    font-family: $font-family-uppercase;
+    font-weight: $font-weight-700;
+}
+
+%container {
+    padding: 2rem;
+}

@@ -1,0 +1,18 @@
+// imports
+@import '../../../theme/index.scss';
+
+.footer {
+    display: block;
+    position: absolute;
+    border-top: 0.0625rem solid;
+    bottom: 0;
+    background-color: $footer-bg;
+    width: 100%;
+    
+    &__text {
+        @include flex($justify: center);
+        @extend %uppercase-text;
+        color: white;
+        padding: 0.5rem;
+    }
+}
