@@ -8,3 +8,14 @@
     flex-direction: $direction;
     gap: $gap;
 }
+
+
+@mixin media-tablet {
+    @media (min-width: 820px) {
+
+    }
+}
+
+/// media-mobile: (min-width: 375x)
+/// media-tablet: (min-width: 820px)
+/// media-desktop: (min-width: 1280px)

@@ -1,0 +1,12 @@
+@import "../../../theme/mixins.scss";
+
+.button {
+    @include flex;
+    background-color: $secondary;
+    padding: 0.3rem 2rem;
+    border-radius: 2rem;
+    border-color: transparent;
+    font-family: $font-family-uppercase;
+    font-weight: $font-weight-700;
+    text-transform: uppercase;
+}

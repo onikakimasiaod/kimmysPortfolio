@@ -5,3 +5,18 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/// media-mobile: (min-width: 375px)
+/// media-tablet: (min-width: 820px)
+/// media-desktop: (min-width: 1280px)
+.container {
+    // mobile
+    @media (max-width: 375px) {
+        padding: 1rem;
+    }
+
+    // desktop
+    @media (min-width: 1280px) {
+        padding: 5rem 15rem;
+    }
+}

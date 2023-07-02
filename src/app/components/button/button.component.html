@@ -1,0 +1,4 @@
+<ng-container [ngSwitch]="button.type">
+    <button *ngSwitchCase="'normal'" [ngClass]="button?.class" class="button">{{ button.text }}</button>
+    <a *ngSwitchCase="'link'" [ngClass]="button?.class" class="button">{{ button.text }}</a>
+</ng-container>
